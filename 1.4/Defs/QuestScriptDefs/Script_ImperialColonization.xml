@@ -126,6 +126,14 @@
 						</nodes>
 					</node>
 				</li>
+
+				<li Class="QuestNode_Signal">
+					<inSignal>site.AllEnemiesDefeated</inSignal>
+					<node Class="QuestNode_Letter">
+						<label>Landing Site Preparations</label>
+						<text>After clearing the site you now need to prepare a landing site for the imperial shuttle, this will require 4 powered ship landing beacons.</text>
+					</node>
+				</li>
 				
 				<li Class="ImperialColonization.QuestNode_TrackShipBeacons">
 					<inSignalEnable>site.MapGenerated</inSignalEnable>
