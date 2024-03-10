@@ -52,7 +52,7 @@
 					<storeAs>sitePartDefs</storeAs>
 					<storeFactionAs>siteFaction</storeFactionAs>
 					<sitePartsTags>
-						<li><tag>ItemStash</tag></li>
+						<li><tag>PreciousLump</tag></li>
 					</sitePartsTags>
 					<mustBeHostileToFactionOf>$asker</mustBeHostileToFactionOf>
 				</li>
