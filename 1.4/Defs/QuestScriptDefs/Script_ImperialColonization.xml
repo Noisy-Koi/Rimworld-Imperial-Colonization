@@ -14,8 +14,8 @@
 		</questNameRules>
 		<questDescriptionRules>
 			<rulesStrings>
-				<li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. 
-\n[asker_nameDef] is asking us to clear the site to expand the Empire presence, which means eliminating all enemies and setting up ship landing beacons for an Empire shuttle to arrive to start settlement expansion. [asker_label] says that [sitePart0_description].</li>
+				<li>questDescription->The Empire has issued a Royal Decree, 
+They have requested that you clear the site to expand the Empire presence by setting up ship landing beacons for an Empire shuttle to arrive to start settlement expansion. The Decree says that [sitePart0_description].</li>
 			</rulesStrings>
 		</questDescriptionRules>
 		<root Class="QuestNode_Sequence">
@@ -196,9 +196,11 @@
 									<allowRoyalFavor>true</allowRoyalFavor>
 									<chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
 								</parms>
+								<!--
 								<addCampLootReward>true</addCampLootReward>
+								-->
 								<customLetterLabel TKey="LetterLabelPaymentArrived">Payment arrived</customLetterLabel>
-								<customLetterText TKey="LetterTextPaymentArrived">You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived.</customLetterText>
+								<customLetterText TKey="LetterTextPaymentArrived">You have succeeded\n\nThe payment from [asker_faction_name] has arrived.</customLetterText>
 								<nodeIfChosenPawnSignalUsed Class="QuestNode_Letter">
 									<letterDef>ChoosePawn</letterDef>
 									<label TKey="LetterLabelFavorReceiver">[asker_faction_royalFavorLabel]</label>

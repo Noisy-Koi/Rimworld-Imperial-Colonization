@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>NKT.Empire.Colonization</name>
+	<name>Empire Colonization</name>
 
 	<packageId>NKT.Empire.Colonization</packageId>
 	
-	<author>Taranchuk</author>
+	<author>Noisy Koi, Taranchuk</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<description>allows the player to expand the empire's presence on the planet
+	<description>Adds a quest allowing the player to create Imperial colonies
 
 	</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VFE.Empire</packageId>
+			<displayName>Vanilla Factions Expanded - Empire</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380</steamWorkshopUrl>
+		</li>
+	</modDependencies>
 </ModMetaData>
