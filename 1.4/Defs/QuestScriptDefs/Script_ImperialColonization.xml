@@ -4,7 +4,6 @@
 	<QuestScriptDef>
 		<defName>IC_ImperialColonization</defName>
 		<rootSelectionWeight>1.0</rootSelectionWeight>
-		<rootMinPoints>350</rootMinPoints>
 		<canGiveRoyalFavor>true</canGiveRoyalFavor>
 		<expireDaysRange>4~8</expireDaysRange>
 		<questNameRules>
